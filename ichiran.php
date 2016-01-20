@@ -20,6 +20,7 @@
 			$stmt = $dbh->prepare($sql);
 			$stmt->execute();
 
+			//一覧を作るためのループ
 			while(1){
 
 				//実行結果として得られたデータを表示
