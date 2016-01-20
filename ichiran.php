@@ -20,7 +20,6 @@
 			$stmt = $dbh->prepare($sql);
 			$stmt->execute();
 
-			$i = 0;
 			while(1){
 
 				//実行結果として得られたデータを表示
